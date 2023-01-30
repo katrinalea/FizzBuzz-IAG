@@ -1,7 +1,7 @@
 type IfizzBuzz = number | string;
 
 export const fizzBuzz = (n: number): string => {
-  const newArray: IfizzBuzz[] = [];
+const newArray: IfizzBuzz[] = [];
 
   for (let num = 1; num <= n; num++) {
     num % 3 === 0 && num % 5 === 0
